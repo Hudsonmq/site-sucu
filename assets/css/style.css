@@ -1,0 +1,156 @@
+/* Base */
+body {
+    font-family: 'Arima', sans-serif;
+    background-color: #F4D03F;
+    background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 50px 0;
+}
+
+p,
+li {
+    color: #FFF;
+    font-size: 14px;
+    
+}
+
+/* Nav */
+
+#logo {
+    width: 75px;
+}
+
+.nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 10px black;
+}
+
+.navbar-brand:hover {
+    color: #FFF;
+}
+
+#navbar-links a {
+    color: #FFF;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+    font-size: 20px;
+}
+
+/* Slider */
+.container-fluid {
+    padding: 0;
+}
+
+#mainSlider .carousel-inner,
+#mainSlider .carousel-item {
+    height: 90vh;
+}
+
+#mainSlider .carousel-caption {
+    top: 30%;
+}
+
+#mainSlider .carousel-caption h2 {
+    font-size: 70px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    text-shadow: 5px 5px 10px black;
+}
+
+#mainSlider .carousel-caption p {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 100px;
+    color: #FFF;
+    text-shadow: 5px 5px 10px black;
+}
+
+.main-btn {
+    background-color: #57965a;
+    color: #FFF;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: 5s;
+    box-shadow: 2px 2px 5px black;
+}
+
+.main-btn:hover {
+    text-decoration: none;
+    color: #FFF;
+    background-color: transparent;
+    border-color: #57965a;
+}
+
+.carousel-indicators .active {
+    background-color: #57965a;
+}
+
+/* Sobre */
+#about-area {
+    background-color:  #57965a;
+}
+
+.main-title {
+    font-size: 40px;
+    text-align: center;
+    color: #FFF;
+    text-shadow: 5px 5px 10px black;
+    margin: 0 0 65px 0;
+}
+.about-title {
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#about-p {
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+/* Cards */
+
+.card img {
+    width: auto;
+    height: 200px;
+}
+
+.card {
+    width: 300px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #FFF;
+}
+.card {
+    height: 500px;
+    margin: 5%;
+}
+
+
